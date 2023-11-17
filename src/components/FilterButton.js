@@ -1,8 +1,8 @@
 import React from 'react'
 
-function FilterButton({ name }) {
+function FilterButton({ name, icon }) {
   return (
-    <div className='filter_button'>{name}</div>
+    <div className='filter_button'>{icon} {name}</div>
   )
 }
 
