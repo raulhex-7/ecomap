@@ -1,6 +1,6 @@
 import React from 'react'
 import { MapContainer, GeoJSON, TileLayer } from 'react-leaflet'
-import '/Users/sabin/Code/ecomap/src/styles/leaflet.css'
+import '../styles/leaflet.css'
 
 function MapDisplay({ data }) {
   const getStyle = (feature) => {
