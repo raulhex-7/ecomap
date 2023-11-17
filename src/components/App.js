@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import MapDisplay from './MapDisplay';
+import React, { useState, useEffect } from 'react'
+import MapDisplay from './MapDisplay'
+import Logo from './Logo'
+import Filters from './Filters'
 
 function App() {
-  const [mapData, setMapData] = useState(null);
+  const [mapData, setMapData] = useState(null)
 
   useEffect(() => {
     async function fetchData() {
@@ -13,37 +15,33 @@ function App() {
           'http://localhost:5000/charging-stations.geojson'
         ];
 
-        const responses = await Promise.all(urls.map(url => fetch(url)));
+        const responses = await Promise.all(urls.map(url => fetch(url)))
 
-        const errorResponses = responses.filter(response => !response.ok);
-        if (errorResponses.length > 0) {
-          throw new Error(`Error in fetching data: ${errorResponses.map(response => response.status).join(', ')}`);
+        const errors = responses.filter(response => !response.ok)
+        if (errors.length > 0) {
+          throw new Error('Errors: ', errors.map(response => response.status))
         }
 
-        // Parse JSON from each response
-        const dataPromises = responses.map(response => response.json());
-
-        // Wait for all data to be fetched and parsed
-        const dataArray = await Promise.all(dataPromises);
-
-        // Combine features from all datasets
-        const combinedFeatures = dataArray.flatMap(data => data.features);
-
-        // Update state with the combined features
-        setMapData(combinedFeatures);
+        const dataPromises = responses.map(response => response.json())
+        const dataArray = await Promise.all(dataPromises)
+        
+        const combinedFeatures = dataArray.flatMap(data => data.features)
+        setMapData(combinedFeatures)
       } catch (error) {
-        console.error(error);
+        console.error(error)
       }
     }
 
-    fetchData();
-  }, []);
+    fetchData()
+  }, [])
 
   return (
     <>
-      {mapData && <MapDisplay data={mapData} />}
+      <Logo />
+        {mapData && <MapDisplay data={mapData} />}
+      <Filters />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
