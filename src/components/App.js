@@ -10,6 +10,7 @@ function App() {
         const urls = [
           'http://localhost:5000/bicycle.geojson',
           'http://localhost:5000/bus-routes.geojson',
+          'http://localhost:5000/charging-stations.geojson'
         ];
 
         const responses = await Promise.all(urls.map(url => fetch(url)));

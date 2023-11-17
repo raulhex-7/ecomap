@@ -9,7 +9,14 @@ function MapDisplay({ data }) {
     iconSize: [20, 20],
     iconAnchor: [8, 8],
     popupAnchor: [0, -32]
-  });
+  })
+
+  const chargingStationIcon = new L.Icon({
+    iconUrl: require('/Users/sabin/Code/ecomap/src/server/static/charging-station.png'),
+    iconSize: [28, 28],
+    iconAnchor: [8, 8],
+    popupAnchor: [0, -32]
+  })
   
   const getStyle = (feature) => {
     const isBusRoute = feature.properties.route === 'bus'
@@ -32,23 +39,38 @@ function MapDisplay({ data }) {
   }
 
   const handleEachFeature = (feature, layer) => {
-    if (feature.properties['@relations']) {
-      feature.properties['@relations'].forEach(
-        (relation) => {
-          if (
-            relation.role === 'platform' ||
-            relation.role === 'platform_entry_only' ||
-            relation.role === 'platform_exit_only'
-          ) {
-            layer.bindPopup(`Trasee: ${getRouteNumbersPopup(feature.properties['@relations'])}`);
-            layer.setIcon(busIcon)
-          } else if (relation.role === 'stop' || relation.role === 'stop_entry_only' || relation.role === 'stop_exit_only') {
-            layer.setOpacity(0)
-          }
+    if (feature.properties.amenity === 'charging_station') {
+      layer.bindPopup('Statie de incarcare electrica');
+      layer.setIcon(chargingStationIcon);
+    } else {
+      let isPlatform = false;
+      let isStop = false;
+  
+      feature.properties['@relations']?.forEach((relation) => {
+        if (
+          relation.role === 'platform' ||
+          relation.role === 'platform_entry_only' ||
+          relation.role === 'platform_exit_only'
+        ) {
+          isPlatform = true;
         }
-      );
+        if (
+          relation.role === 'stop' ||
+          relation.role === 'stop_entry_only' ||
+          relation.role === 'stop_exit_only'
+        ) {
+          isStop = true;
+        }
+      });
+  
+      if (isPlatform) {
+        layer.bindPopup(`Trasee: ${getRouteNumbersPopup(feature.properties['@relations'])}`);
+        layer.setIcon(busIcon);
+      } else if (isStop) {
+        layer.setOpacity(0);
+      }
     }
-  }
+  };
 
   return (
     <MapContainer
