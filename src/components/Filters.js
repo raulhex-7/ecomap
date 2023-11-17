@@ -10,6 +10,10 @@ function Filters() {
     {
       name: 'Piste biciclete',
       icon: '🚲'
+    },
+    {
+      name: 'Stații încărcare',
+      icon: '🔌'
     }
   ]
 
