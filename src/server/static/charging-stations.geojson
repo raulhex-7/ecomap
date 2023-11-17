@@ -1,0 +1,132 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-11-17T17:00:32Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235429924",
+        "amenity": "charging_station",
+        "description": "22 kW Type 2 (400 V, 32 A) and 3,6 kW Schuko (230 V, 16 A), with payment system, E-Motion Street box model made by E-Motion Electric www.e-motionelectric.ro)",
+        "fuel": "electric",
+        "information": "Mennekes (Type 2), Wall Outlet (EuroPlug)",
+        "phone": "+40269229657",
+        "source": "http://masinaelectrica.ro/harta-statii-incarcare/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1073432,
+          45.7920159
+        ]
+      },
+      "id": "node/4235429924"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4235478261",
+        "amenity": "charging_station",
+        "capacity": "2",
+        "description": "smart charger type 2-22kw/32A + Europlug 3.7kW/16A evconnect.ro",
+        "fuel": "electric",
+        "phone": "0040724085960",
+        "source": "http://masinaelectrica.ro/harta-statii-incarcare/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1498,
+          45.79226
+        ]
+      },
+      "id": "node/4235478261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5963301484",
+        "addr:city": "Sibiu",
+        "addr:housenumber": "42",
+        "addr:street": "Șoseaua Alba Iulia",
+        "amenity": "charging_station",
+        "name": "Stație Încărcare Mașini Electrice Kaufland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1335162,
+          45.7938348
+        ]
+      },
+      "id": "node/5963301484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8977362508",
+        "access": "customers",
+        "amenity": "charging_station",
+        "brand": "Tesla, Inc.",
+        "brand:wikidata": "Q478214",
+        "capacity": "6",
+        "covered": "no",
+        "fee": "yes",
+        "name": "Sibiu Supercharger",
+        "opening_hours": "24/7",
+        "operator": "Tesla, Inc.",
+        "operator:wikidata": "Q478214",
+        "operator:wikipedia": "en:Tesla, Inc.",
+        "short_name": "Tesla",
+        "socket:tesla_supercharger_ccs": "6",
+        "socket:tesla_supercharger_ccs:output": "250 kW",
+        "website": "https://www.tesla.com/findus/location/supercharger/Sibiurosupercharger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1709463,
+          45.7755483
+        ]
+      },
+      "id": "node/8977362508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9031500107",
+        "amenity": "charging_station",
+        "capacity": "4",
+        "name": "Enel X"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1691123,
+          45.7787896
+        ]
+      },
+      "id": "node/9031500107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11119853316",
+        "access": "yes",
+        "amenity": "charging_station",
+        "name": "Electric Bike Charging Station",
+        "name:ro": "Stație de încărcare biciclete electrice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1188627,
+          45.7723521
+        ]
+      },
+      "id": "node/11119853316"
+    }
+  ]
+}
