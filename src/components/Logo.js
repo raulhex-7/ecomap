@@ -25,7 +25,7 @@ function Logo() {
   return (
     <div className='logo_container'>
       <img src={logo} className='logo' alt='logo' />
-      <span className='logo_name'>EcoMap</span>
+      <span className='logo_name'>ECO MAP</span>
     </div>
   )
 }

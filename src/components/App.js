@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import MapDisplay from './MapDisplay'
 import Logo from './Logo'
+import Filters from './Filters'
 
 function App() {
   const [mapData, setMapData] = useState(null)
@@ -37,6 +38,7 @@ function App() {
     <>
       <Logo />
       {mapData && <MapDisplay data={mapData} />}
+      <Filters />
     </>
   )
 }
