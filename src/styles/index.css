@@ -56,7 +56,6 @@
   } 
 
   .filter_button {
-    background-color: white;
     outline: 0.1cap solid black;
     border-radius: 100px;
     padding: 10px;
@@ -64,4 +63,11 @@
     border: 1px solid #ccc;
     cursor: pointer;
     user-select: none;
+  }
+  
+  .filter_disabled {
+    background-color: white;
+  }
+  .filter_enabled {
+    background-color: #9ABA28;
   }
