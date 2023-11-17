@@ -1,0 +1,4513 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2023-11-17T07:36:56Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/415581251",
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Parcul Tineretului",
+        "network": "Tursib",
+        "network:wikidata": "Q1477885",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.158199,
+          45.7961331
+        ]
+      },
+      "id": "node/415581251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/482810795",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Gară",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1614968,
+          45.7997177
+        ]
+      },
+      "id": "node/482810795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/482815474",
+        "amenity": "bus_station",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Atlassib",
+        "shelter": "yes",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1306611,
+          45.7944097
+        ]
+      },
+      "id": "node/482815474"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/483814950",
+        "highway": "bus_stop",
+        "name": "Autogara AMAD TOUR"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1293625,
+          45.7741542
+        ]
+      },
+      "id": "node/483814950"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/484674586",
+        "highway": "bus_stop",
+        "name": "Autogării",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1310356,
+          45.7942868
+        ]
+      },
+      "id": "node/484674586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582694267",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gaz Metan",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1495882,
+          45.8087832
+        ]
+      },
+      "id": "node/582694267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582694268",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Terezian",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1463398,
+          45.8085141
+        ]
+      },
+      "id": "node/582694268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582717692",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Calea Cisnădiei",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1485621,
+          45.7744892
+        ]
+      },
+      "id": "node/582717692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/583299829",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Teatru",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1498663,
+          45.7916844
+        ]
+      },
+      "id": "node/583299829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/599229815",
+        "highway": "bus_stop",
+        "name": "Gladiolelor",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.148777,
+          45.8054753
+        ]
+      },
+      "id": "node/599229815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/599919007",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1518027,
+          45.8041998
+        ]
+      },
+      "id": "node/599919007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/832443117",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Liceul Energetic",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1693732,
+          45.7834113
+        ]
+      },
+      "id": "node/832443117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1724995013",
+        "highway": "bus_stop",
+        "name": "Șc. Gen. 10/1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1182703,
+          45.7892229
+        ]
+      },
+      "id": "node/1724995013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1866050547",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rusciorului 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1496934,
+          45.8086832
+        ]
+      },
+      "id": "node/1866050547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2034531070",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Bloc 9 Mihai Viteazu",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1533477,
+          45.7800193
+        ]
+      },
+      "id": "node/2034531070"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2412856040",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "A. Șaguna",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1468446,
+          45.7922326
+        ]
+      },
+      "id": "node/2412856040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2412856041",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Aeroport 1",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.092829,
+          45.7901392
+        ]
+      },
+      "id": "node/2412856041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2412856042",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Aeroport 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0926216,
+          45.7902508
+        ]
+      },
+      "id": "node/2412856042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2412856043",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Casa Armatei",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1467215,
+          45.7915178
+        ]
+      },
+      "id": "node/2412856043"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055345",
+        "highway": "bus_stop",
+        "name": "Alba Iulia",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1407976,
+          45.7926656
+        ]
+      },
+      "id": "node/3729055345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055346",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Distribuției",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1345765,
+          45.7963229
+        ]
+      },
+      "id": "node/3729055346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055347",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Aron Pumnul",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1482081,
+          45.7755171
+        ]
+      },
+      "id": "node/3729055347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055348",
+        "highway": "bus_stop",
+        "name": "Bloc 1 Mihai Viteazu",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1497135,
+          45.7818429
+        ]
+      },
+      "id": "node/3729055348"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055349",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "C.E.C.",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1494187,
+          45.7867562
+        ]
+      },
+      "id": "node/3729055349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055350",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Calea Dumbrăvii 1",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1384328,
+          45.7704164
+        ]
+      },
+      "id": "node/3729055350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055351",
+        "highway": "bus_stop",
+        "name": "Cireșica",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1475001,
+          45.7725089
+        ]
+      },
+      "id": "node/3729055351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055352",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Cireșica 2",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1475113,
+          45.7725782
+        ]
+      },
+      "id": "node/3729055352"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055353",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Cofetăria Primăvară",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1533212,
+          45.7802437
+        ]
+      },
+      "id": "node/3729055353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055354",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "DPC",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1314251,
+          45.7976589
+        ]
+      },
+      "id": "node/3729055354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055355",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Flaro",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1464629,
+          45.8031722
+        ]
+      },
+      "id": "node/3729055355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055356",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cibinului",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1492873,
+          45.8039189
+        ]
+      },
+      "id": "node/3729055356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055357",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Aleea Seviș",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1534726,
+          45.7748415
+        ]
+      },
+      "id": "node/3729055357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055358",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Lomonosov",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1488955,
+          45.7857856
+        ]
+      },
+      "id": "node/3729055358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055359",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "MOL",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1401245,
+          45.7923843
+        ]
+      },
+      "id": "node/3729055359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055360",
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mondex",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1358436,
+          45.7956096
+        ]
+      },
+      "id": "node/3729055360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055361",
+        "highway": "bus_stop",
+        "name": "Nicolae Iorga",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.149557,
+          45.7781356
+        ]
+      },
+      "id": "node/3729055361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055363",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Obor 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1495256,
+          45.8135845
+        ]
+      },
+      "id": "node/3729055363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055364",
+        "highway": "bus_stop",
+        "name": "Obor",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1489065,
+          45.8148765
+        ]
+      },
+      "id": "node/3729055364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055365",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Opel",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1503372,
+          45.8190925
+        ]
+      },
+      "id": "node/3729055365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055366",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Piata Aurel Vlaicu 1",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1482358,
+          45.7833526
+        ]
+      },
+      "id": "node/3729055366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055367",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piata Cibin 1",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1440794,
+          45.7993148
+        ]
+      },
+      "id": "node/3729055367"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055368",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piața Rahova 1",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1578509,
+          45.7773167
+        ]
+      },
+      "id": "node/3729055368"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055369",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piața Cibin 2",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1433835,
+          45.7996383
+        ]
+      },
+      "id": "node/3729055369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055370",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Penny",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1350819,
+          45.7925178
+        ]
+      },
+      "id": "node/3729055370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055371",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Kaufland",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1338947,
+          45.792912
+        ]
+      },
+      "id": "node/3729055371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055372",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rusciorului 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1519369,
+          45.8057771
+        ]
+      },
+      "id": "node/3729055372"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055373",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Scandia 3",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1409999,
+          45.7965715
+        ]
+      },
+      "id": "node/3729055373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055374",
+        "bench": "no",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Siretului",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1402788,
+          45.7719462
+        ]
+      },
+      "id": "node/3729055374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055375",
+        "bench": "no",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Siretului 2",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1403585,
+          45.7720266
+        ]
+      },
+      "id": "node/3729055375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729055376",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Metalurgiștilor",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1379856,
+          45.7966057
+        ]
+      },
+      "id": "node/3729055376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119479",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Abatorului",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1566908,
+          45.8023762
+        ]
+      },
+      "id": "node/3729119479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119480",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Apollo",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1557315,
+          45.8019894
+        ]
+      },
+      "id": "node/3729119480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119481",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "BRD",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1581467,
+          45.7992733
+        ]
+      },
+      "id": "node/3729119481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119482",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "name": "Ștefan cel Mare 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1820718,
+          45.7882423
+        ]
+      },
+      "id": "node/3729119482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119483",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "name": "CGS",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1880817,
+          45.7884869
+        ]
+      },
+      "id": "node/3729119483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119484",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "name": "Ștefan cel Mare 1",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1825528,
+          45.788357
+        ]
+      },
+      "id": "node/3729119484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119485",
+        "highway": "bus_stop",
+        "name": "Cema",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1968539,
+          45.7988956
+        ]
+      },
+      "id": "node/3729119485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119486",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Cema",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1969096,
+          45.7990099
+        ]
+      },
+      "id": "node/3729119486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119487",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Narcisa",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1704036,
+          45.7838325
+        ]
+      },
+      "id": "node/3729119487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119488",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Aida",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1517413,
+          45.788576
+        ]
+      },
+      "id": "node/3729119488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119489",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "name": "Ștefan cel Mare 3",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1874873,
+          45.7883621
+        ]
+      },
+      "id": "node/3729119489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119490",
+        "highway": "bus_stop",
+        "name": "Irmes 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.191723,
+          45.7886821
+        ]
+      },
+      "id": "node/3729119490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119491",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Târgul Fânului",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1515574,
+          45.8034583
+        ]
+      },
+      "id": "node/3729119491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119492",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Liceul Independenței",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1506298,
+          45.8050558
+        ]
+      },
+      "id": "node/3729119492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119493",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Mirăslău",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1585329,
+          45.785955
+        ]
+      },
+      "id": "node/3729119493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119494",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Moldoveanu",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1615142,
+          45.7846555
+        ]
+      },
+      "id": "node/3729119494"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119495",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Muzeul de Științe Naturale",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1546385,
+          45.7943559
+        ]
+      },
+      "id": "node/3729119495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119496",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Nufărul",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1510362,
+          45.7925127
+        ]
+      },
+      "id": "node/3729119496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119497",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Peco Milea",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1657936,
+          45.782365
+        ]
+      },
+      "id": "node/3729119497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119498",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piata Cibin 3",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1438402,
+          45.8009966
+        ]
+      },
+      "id": "node/3729119498"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119499",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Piața V. Aaron 1",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.174264,
+          45.7859723
+        ]
+      },
+      "id": "node/3729119499"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119500",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Piața V. Aaron 2",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1754191,
+          45.786693
+        ]
+      },
+      "id": "node/3729119500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119501",
+        "highway": "bus_stop",
+        "name": "Podului",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2081547,
+          45.7912648
+        ]
+      },
+      "id": "node/3729119501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119502",
+        "highway": "bus_stop",
+        "name": "Podului",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2083365,
+          45.7913453
+        ]
+      },
+      "id": "node/3729119502"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119503",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Poliție",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1524483,
+          45.788483
+        ]
+      },
+      "id": "node/3729119503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119504",
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Scandia",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2032853,
+          45.7950191
+        ]
+      },
+      "id": "node/3729119504"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119506",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Strada Lector",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1605337,
+          45.796971
+        ]
+      },
+      "id": "node/3729119506"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119507",
+        "highway": "bus_stop",
+        "name": "Smârdan",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1895764,
+          45.8046956
+        ]
+      },
+      "id": "node/3729119507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119508",
+        "highway": "bus_stop",
+        "name": "Smârdan",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1897829,
+          45.8047253
+        ]
+      },
+      "id": "node/3729119508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119509",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Spitalul Județean",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1565304,
+          45.795195
+        ]
+      },
+      "id": "node/3729119509"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119510",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Strada Lungă",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1457902,
+          45.8073805
+        ]
+      },
+      "id": "node/3729119510"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119511",
+        "highway": "bus_stop",
+        "name": "Tăbăcărie",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1988534,
+          45.7977827
+        ]
+      },
+      "id": "node/3729119511"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119512",
+        "highway": "bus_stop",
+        "name": "Tăbăcărie",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1989796,
+          45.7978421
+        ]
+      },
+      "id": "node/3729119512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119513",
+        "highway": "bus_stop",
+        "name": "Viilor",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1939144,
+          45.8006043
+        ]
+      },
+      "id": "node/3729119513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729119514",
+        "highway": "bus_stop",
+        "name": "Viilor",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1940127,
+          45.8006744
+        ]
+      },
+      "id": "node/3729119514"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729133155",
+        "highway": "bus_stop",
+        "name": "Spitalul Militar",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1382795,
+          45.7830059
+        ]
+      },
+      "id": "node/3729133155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3729133156",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Bulevardul Victoriei",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1361816,
+          45.7794824
+        ]
+      },
+      "id": "node/3729133156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726589",
+        "highway": "bus_stop",
+        "name": "Asachi 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1122833,
+          45.7836775
+        ]
+      },
+      "id": "node/3734726589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726590",
+        "highway": "bus_stop",
+        "name": "Asachi 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1129988,
+          45.7841158
+        ]
+      },
+      "id": "node/3734726590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726591",
+        "highway": "bus_stop",
+        "name": "Bieltz",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1205584,
+          45.7930141
+        ]
+      },
+      "id": "node/3734726591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726592",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Bosch",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.122775,
+          45.7935384
+        ]
+      },
+      "id": "node/3734726592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726593",
+        "highway": "bus_stop",
+        "name": "Compa I",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1732559,
+          45.797566
+        ]
+      },
+      "id": "node/3734726593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726594",
+        "highway": "bus_stop",
+        "name": "Compa II/ 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1767474,
+          45.7966798
+        ]
+      },
+      "id": "node/3734726594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726595",
+        "highway": "bus_stop",
+        "name": "Compa II/ 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.177201,
+          45.7972695
+        ]
+      },
+      "id": "node/3734726595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726596",
+        "highway": "bus_stop",
+        "name": "Complex Oțetarilor",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1728149,
+          45.7996272
+        ]
+      },
+      "id": "node/3734726596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726597",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Electrica",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1600326,
+          45.7969284
+        ]
+      },
+      "id": "node/3734726597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726598",
+        "highway": "bus_stop",
+        "name": "Lazaret 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1698091,
+          45.8009649
+        ]
+      },
+      "id": "node/3734726598"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726599",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Lidl",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1302604,
+          45.7931901
+        ]
+      },
+      "id": "node/3734726599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726600",
+        "highway": "bus_stop",
+        "name": "McDonald's",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1299905,
+          45.7933503
+        ]
+      },
+      "id": "node/3734726600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726601",
+        "highway": "bus_stop",
+        "name": "Piața Iancu de Hunedoara 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1159303,
+          45.7858333
+        ]
+      },
+      "id": "node/3734726601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726602",
+        "highway": "bus_stop",
+        "name": "Piața Iancu de Hunedoara 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.11619,
+          45.7872808
+        ]
+      },
+      "id": "node/3734726602"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726603",
+        "highway": "bus_stop",
+        "name": "Sembraz",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1839866,
+          45.7950362
+        ]
+      },
+      "id": "node/3734726603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726604",
+        "highway": "bus_stop",
+        "name": "Sembraz",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1840512,
+          45.7953633
+        ]
+      },
+      "id": "node/3734726604"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726605",
+        "highway": "bus_stop",
+        "name": "Strungului",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.168096,
+          45.7999773
+        ]
+      },
+      "id": "node/3734726605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726606",
+        "highway": "bus_stop",
+        "name": "Treboniu Aurelian",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1665525,
+          45.8003099
+        ]
+      },
+      "id": "node/3734726606"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726607",
+        "highway": "bus_stop",
+        "name": "Zăvoi 3",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1086598,
+          45.7792404
+        ]
+      },
+      "id": "node/3734726607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3734726608",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Zăvoi 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1087371,
+          45.779639
+        ]
+      },
+      "id": "node/3734726608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478273",
+        "highway": "bus_stop",
+        "name": "Ambient 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1092605,
+          45.7925819
+        ]
+      },
+      "id": "node/3742478273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478274",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Biomin",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0869507,
+          45.797052
+        ]
+      },
+      "id": "node/3742478274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478275",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Arabesque",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0871997,
+          45.7894814
+        ]
+      },
+      "id": "node/3742478275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478276",
+        "highway": "bus_stop",
+        "name": "Cedonia",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1573538,
+          45.7807381
+        ]
+      },
+      "id": "node/3742478276"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478277",
+        "highway": "bus_stop",
+        "name": "Complexul Luptei",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1624023,
+          45.7824809
+        ]
+      },
+      "id": "node/3742478277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478278",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Harting 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0864118,
+          45.7983895
+        ]
+      },
+      "id": "node/3742478278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478279",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vama 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0969641,
+          45.7908127
+        ]
+      },
+      "id": "node/3742478279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478280",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Metro",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1093111,
+          45.7924517
+        ]
+      },
+      "id": "node/3742478280"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478281",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Mihai Viteazu",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1554834,
+          45.779206
+        ]
+      },
+      "id": "node/3742478281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478282",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Phoenix M.P. 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0884817,
+          45.7940164
+        ]
+      },
+      "id": "node/3742478282"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478283",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piata Rahova 2",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1591987,
+          45.7785467
+        ]
+      },
+      "id": "node/3742478283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478284",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "RAR",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0833343,
+          45.7889887
+        ]
+      },
+      "id": "node/3742478284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478286",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Simpa 1",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1063502,
+          45.7920181
+        ]
+      },
+      "id": "node/3742478286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478287",
+        "highway": "bus_stop",
+        "name": "Simpa 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1063297,
+          45.7921648
+        ]
+      },
+      "id": "node/3742478287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478288",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Turnișor",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1226949,
+          45.7937114
+        ]
+      },
+      "id": "node/3742478288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478289",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vama",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.096427,
+          45.7906381
+        ]
+      },
+      "id": "node/3742478289"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3742478290",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vasile Milea 2",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1657909,
+          45.7815975
+        ]
+      },
+      "id": "node/3742478290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750292879",
+        "highway": "bus_stop",
+        "name": "Complexul Oțelarilor",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1728139,
+          45.7996127
+        ]
+      },
+      "id": "node/3750292879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750292880",
+        "highway": "bus_stop",
+        "name": "Piața Rahova 3",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1572806,
+          45.7780084
+        ]
+      },
+      "id": "node/3750292880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750325800",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Anton Pann",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.145484,
+          45.7795354
+        ]
+      },
+      "id": "node/3750325800"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750325801",
+        "highway": "bus_stop",
+        "name": "Calea Dumbrăvii 2",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1383985,
+          45.7708647
+        ]
+      },
+      "id": "node/3750325801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750325802",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Cimitirul Eroilor 1",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1329284,
+          45.7656322
+        ]
+      },
+      "id": "node/3750325802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750325803",
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cimitirul Eroilor 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1330316,
+          45.7659155
+        ]
+      },
+      "id": "node/3750325803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750325804",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Dima 1",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1434111,
+          45.7768245
+        ]
+      },
+      "id": "node/3750325804"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750325807",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Lămâiței",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1489489,
+          45.7807281
+        ]
+      },
+      "id": "node/3750325807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750325809",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Tursib 1",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1405686,
+          45.7729138
+        ]
+      },
+      "id": "node/3750325809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750346478",
+        "highway": "bus_stop",
+        "name": "Comtram 1",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1822975,
+          45.7916053
+        ]
+      },
+      "id": "node/3750346478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750346479",
+        "highway": "bus_stop",
+        "name": "Comtram 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1824419,
+          45.7914424
+        ]
+      },
+      "id": "node/3750346479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750346480",
+        "highway": "bus_stop",
+        "name": "Dima 2",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1441577,
+          45.7761763
+        ]
+      },
+      "id": "node/3750346480"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750346481",
+        "highway": "bus_stop",
+        "name": "Valea Aurie",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1249374,
+          45.7681119
+        ]
+      },
+      "id": "node/3750346481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750346482",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Vasile Milea 1",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1647958,
+          45.7811967
+        ]
+      },
+      "id": "node/3750346482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750381994",
+        "highway": "bus_stop",
+        "name": "Al. Vlahuța",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1402043,
+          45.7789154
+        ]
+      },
+      "id": "node/3750381994"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750381995",
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Ceferiștilor 1",
+        "network": "Tursib",
+        "network:wikidata": "Q1477885",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1701015,
+          45.7896281
+        ]
+      },
+      "id": "node/3750381995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750381996",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Ceferiștilor 2",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1700803,
+          45.7897304
+        ]
+      },
+      "id": "node/3750381996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750381997",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Constituției",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1583361,
+          45.7971618
+        ]
+      },
+      "id": "node/3750381997"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750381998",
+        "highway": "bus_stop",
+        "name": "Calea Poplăcii",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1338354,
+          45.7786002
+        ]
+      },
+      "id": "node/3750381998"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750381999",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Mobexpert",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1699325,
+          45.7786536
+        ]
+      },
+      "id": "node/3750381999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382000",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Hermann Oberth",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.159885,
+          45.7953607
+        ]
+      },
+      "id": "node/3750382000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382001",
+        "highway": "bus_stop",
+        "name": "Piața Sadu 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1283633,
+          45.7729357
+        ]
+      },
+      "id": "node/3750382001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382002",
+        "highway": "bus_stop",
+        "name": "Piața Sadu 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1286501,
+          45.7734923
+        ]
+      },
+      "id": "node/3750382002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382003",
+        "highway": "bus_stop",
+        "name": "Piața Talmaciu 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1308781,
+          45.7754702
+        ]
+      },
+      "id": "node/3750382003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382004",
+        "highway": "bus_stop",
+        "name": "Piața Talmaciu 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1307897,
+          45.7755143
+        ]
+      },
+      "id": "node/3750382004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382005",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Policlinica Stomatologică",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1600317,
+          45.7945321
+        ]
+      },
+      "id": "node/3750382005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382006",
+        "highway": "bus_stop",
+        "name": "Sala Transilvania",
+        "public_transport": "platform",
+        "shelter": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.149106,
+          45.7823519
+        ]
+      },
+      "id": "node/3750382006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382007",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Shopping City",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1713915,
+          45.7772058
+        ]
+      },
+      "id": "node/3750382007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382008",
+        "highway": "bus_stop",
+        "name": "Theodor Mihaly 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1257103,
+          45.7704769
+        ]
+      },
+      "id": "node/3750382008"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382009",
+        "highway": "bus_stop",
+        "name": "Theodor Mihaly 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1254981,
+          45.7705837
+        ]
+      },
+      "id": "node/3750382009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382010",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Trei Stejari 1",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1652316,
+          45.7899169
+        ]
+      },
+      "id": "node/3750382010"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382011",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Trei Stejari 2",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1652105,
+          45.7900169
+        ]
+      },
+      "id": "node/3750382011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382012",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viaduct Vasile Aaron 1",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1752068,
+          45.7885973
+        ]
+      },
+      "id": "node/3750382012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382013",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Viaduct Vasile Aaron 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1752311,
+          45.7886599
+        ]
+      },
+      "id": "node/3750382013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382014",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "XXL",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "website": "https://www.tursib.ro/",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1701786,
+          45.7792697
+        ]
+      },
+      "id": "node/3750382014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382929",
+        "highway": "bus_stop",
+        "name": "Șc. Generala Nr.16/1",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1409621,
+          45.7764499
+        ]
+      },
+      "id": "node/3750382929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750382930",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Școala Militară 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1342321,
+          45.7788254
+        ]
+      },
+      "id": "node/3750382930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750394037",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Bârsei",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1329212,
+          45.784534
+        ]
+      },
+      "id": "node/3750394037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750394038",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Biserica Ștrand",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.133113,
+          45.7886827
+        ]
+      },
+      "id": "node/3750394038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750394039",
+        "bench": "no",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Hațegului",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1331206,
+          45.7844765
+        ]
+      },
+      "id": "node/3750394039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750394040",
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Maramureșului",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1330089,
+          45.7885029
+        ]
+      },
+      "id": "node/3750394040"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3750394041",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Kaufland 2",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1331026,
+          45.7938186
+        ]
+      },
+      "id": "node/3750394041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526889",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Alimentara Tiglari 1",
+        "network": "Tursib",
+        "network:wikidata": "Q1477885",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1406054,
+          45.8094908
+        ]
+      },
+      "id": "node/3752526889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526890",
+        "bus": "yes",
+        "departures_board": "timetable",
+        "highway": "bus_stop",
+        "name": "Alimentara Țiglari 2",
+        "network": "Tursib",
+        "network:wikidata": "Q1477885",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1405388,
+          45.8096394
+        ]
+      },
+      "id": "node/3752526890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526891",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bariera Tiglari 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1381408,
+          45.8107028
+        ]
+      },
+      "id": "node/3752526891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526892",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bariera Tiglari 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1381932,
+          45.8107612
+        ]
+      },
+      "id": "node/3752526892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526893",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Câmpului 1",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.136828,
+          45.8065486
+        ]
+      },
+      "id": "node/3752526893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526894",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Câmpului 2",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1369613,
+          45.8064401
+        ]
+      },
+      "id": "node/3752526894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526895",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kiev",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1356167,
+          45.8007551
+        ]
+      },
+      "id": "node/3752526895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526896",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Klagenfurt",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.133789,
+          45.8155822
+        ]
+      },
+      "id": "node/3752526896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526897",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kogălniceanu",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1353769,
+          45.8007393
+        ]
+      },
+      "id": "node/3752526897"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526898",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Landshut",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.134092,
+          45.8153951
+        ]
+      },
+      "id": "node/3752526898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526899",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lisabona",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1296462,
+          45.8142781
+        ]
+      },
+      "id": "node/3752526899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526900",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lisabona",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1297388,
+          45.8142101
+        ]
+      },
+      "id": "node/3752526900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526901",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Moldovei 1",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1376055,
+          45.7864241
+        ]
+      },
+      "id": "node/3752526901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526902",
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Moldovei 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1374767,
+          45.7864218
+        ]
+      },
+      "id": "node/3752526902"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526903",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paris 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1336019,
+          45.8045888
+        ]
+      },
+      "id": "node/3752526903"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526904",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paris 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1337489,
+          45.8044945
+        ]
+      },
+      "id": "node/3752526904"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526905",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piata Tiglari 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1366613,
+          45.8132756
+        ]
+      },
+      "id": "node/3752526905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526906",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Piata Tiglari 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1367058,
+          45.8131672
+        ]
+      },
+      "id": "node/3752526906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526907",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Premium 1",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1432229,
+          45.8007896
+        ]
+      },
+      "id": "node/3752526907"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752526919",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Ștrand",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1341034,
+          45.7907623
+        ]
+      },
+      "id": "node/3752526919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610240",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Aeronamic",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0838615,
+          45.7969119
+        ]
+      },
+      "id": "node/3755610240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610241",
+        "highway": "bus_stop",
+        "name": "Ambient 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1048749,
+          45.7953206
+        ]
+      },
+      "id": "node/3755610241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610242",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ambient 3",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1028902,
+          45.7952113
+        ]
+      },
+      "id": "node/3755610242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610243",
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Atlanta",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0856065,
+          45.7953128
+        ]
+      },
+      "id": "node/3755610243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610244",
+        "highway": "bus_stop",
+        "name": "Brandl 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1089397,
+          45.7953416
+        ]
+      },
+      "id": "node/3755610244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610245",
+        "highway": "bus_stop",
+        "name": "Brandl 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1091486,
+          45.7953757
+        ]
+      },
+      "id": "node/3755610245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610246",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Turda 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0968282,
+          45.7941398
+        ]
+      },
+      "id": "node/3755610246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610247",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Turda 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0967865,
+          45.7943034
+        ]
+      },
+      "id": "node/3755610247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610248",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Harting 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0869159,
+          45.7993342
+        ]
+      },
+      "id": "node/3755610248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610249",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Marquardt",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0900315,
+          45.7975223
+        ]
+      },
+      "id": "node/3755610249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610250",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Phoenix M.P. 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0886187,
+          45.7940365
+        ]
+      },
+      "id": "node/3755610250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610251",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Siemens",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0935839,
+          45.7925915
+        ]
+      },
+      "id": "node/3755610251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755610252",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Takata",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0927502,
+          45.7925414
+        ]
+      },
+      "id": "node/3755610252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3755616057",
+        "highway": "bus_stop",
+        "name": "Irmes 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1917064,
+          45.788409
+        ]
+      },
+      "id": "node/3755616057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765144869",
+        "bench": "no",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Billa",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1403946,
+          45.7864353
+        ]
+      },
+      "id": "node/3765144869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3765161920",
+        "bench": "no",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "name": "Transilvaniei",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1389723,
+          45.7906521
+        ]
+      },
+      "id": "node/3765161920"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3873267975",
+        "highway": "bus_stop",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1207244,
+          45.7935146
+        ]
+      },
+      "id": "node/3873267975"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5043091439",
+        "addr:housenumber": "8",
+        "addr:street": "Strada Europa Unită",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Autogara Vest (Eurolines)",
+        "note:route_ref": "Flixbus 1929",
+        "public_transport": "platform",
+        "route_ref": "1929",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.087776,
+          45.7951725
+        ]
+      },
+      "id": "node/5043091439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255207187",
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Opel",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1503984,
+          45.8195609
+        ]
+      },
+      "id": "node/8255207187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255207189",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Hornbach",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1491671,
+          45.8218045
+        ]
+      },
+      "id": "node/8255207189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255207191",
+        "highway": "bus_stop",
+        "name": "Viile Sibiului 5",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1526271,
+          45.8296378
+        ]
+      },
+      "id": "node/8255207191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255340615",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Calea Gușteriței",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1698495,
+          45.8026013
+        ]
+      },
+      "id": "node/8255340615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255340616",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Alecu Russo",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1720717,
+          45.8058136
+        ]
+      },
+      "id": "node/8255340616"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255346265",
+        "highway": "bus_stop",
+        "name": "Stăvilarului 2",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1099879,
+          45.7817597
+        ]
+      },
+      "id": "node/8255346265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255346266",
+        "highway": "bus_stop",
+        "name": "Stăvilarului 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1099021,
+          45.7813164
+        ]
+      },
+      "id": "node/8255346266"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255346268",
+        "highway": "bus_stop",
+        "name": "Zăvoi",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1068004,
+          45.7759139
+        ]
+      },
+      "id": "node/8255346268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255449417",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Pod Gușterița",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1737011,
+          45.8075692
+        ]
+      },
+      "id": "node/8255449417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255449418",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Alimentară Gușterița",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1780805,
+          45.8109463
+        ]
+      },
+      "id": "node/8255449418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255449420",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Alimentară Gușterița",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1782467,
+          45.8109279
+        ]
+      },
+      "id": "node/8255449420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255449421",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Pod Gușterița",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1740074,
+          45.8076981
+        ]
+      },
+      "id": "node/8255449421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255449422",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Alecu Russo",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1721741,
+          45.8057985
+        ]
+      },
+      "id": "node/8255449422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255449424",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Calea Gușteriței",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.169968,
+          45.8025712
+        ]
+      },
+      "id": "node/8255449424"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255449426",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Lazaret 2",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1687374,
+          45.8010938
+        ]
+      },
+      "id": "node/8255449426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255792206",
+        "highway": "bus_stop",
+        "name": "Retrasib",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1928249,
+          45.783558
+        ]
+      },
+      "id": "node/8255792206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255792208",
+        "highway": "bus_stop",
+        "name": "Eurofoam",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1943015,
+          45.7797963
+        ]
+      },
+      "id": "node/8255792208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255792209",
+        "highway": "bus_stop",
+        "name": "Greiner",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1929644,
+          45.7820635
+        ]
+      },
+      "id": "node/8255792209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255911341",
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Bazin Olimpia",
+        "public_transport": "platform",
+        "shelter": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1413185,
+          45.7872242
+        ]
+      },
+      "id": "node/8255911341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255911343",
+        "highway": "bus_stop",
+        "name": "Parcul Sub Arini",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1384861,
+          45.783055
+        ]
+      },
+      "id": "node/8255911343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8255911345",
+        "bench": "yes",
+        "bin": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Școala Militară 1",
+        "public_transport": "platform",
+        "shelter": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1361432,
+          45.7791735
+        ]
+      },
+      "id": "node/8255911345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8257724555",
+        "highway": "bus_stop",
+        "name": "Henri Coandă",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1804817,
+          45.7959012
+        ]
+      },
+      "id": "node/8257724555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8257724558",
+        "highway": "bus_stop",
+        "name": "Grădinița Continental",
+        "operator": "Tursib",
+        "public_transport": "platform",
+        "website": "https://www.tursib.ro/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0815943,
+          45.7987745
+        ]
+      },
+      "id": "node/8257724558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8257972960",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Londra",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1278622,
+          45.8164626
+        ]
+      },
+      "id": "node/8257972960"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8257972961",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Deventer",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1281787,
+          45.8147876
+        ]
+      },
+      "id": "node/8257972961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8258004889",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Barcelona",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0828452,
+          45.7986561
+        ]
+      },
+      "id": "node/8258004889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10151448774",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Takata",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.0927768,
+          45.7925636
+        ]
+      },
+      "id": "node/10151448774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10300435591",
+        "highway": "bus_stop",
+        "name": "Reșița 2",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1649111,
+          45.8079561
+        ]
+      },
+      "id": "node/10300435591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10300435594",
+        "highway": "bus_stop",
+        "name": "Reșița 1",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1675169,
+          45.8077234
+        ]
+      },
+      "id": "node/10300435594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10300435596",
+        "highway": "bus_stop",
+        "name": "Reșița 3",
+        "public_transport": "platform"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1692312,
+          45.8088191
+        ]
+      },
+      "id": "node/10300435596"
+    }
+  ]
+}
