@@ -9,6 +9,7 @@ export const MapConfigProvider = ({ children }) => {
   const [showBusRoutes, setShowBusRoutes] = useState(true);
   const [showBikeRoutes, setShowBikeRoutes] = useState(true);
   const [showChargingStations, setShowChargingStations] = useState(true);
+  const [showNoisePollution, setShowNoisePollution] = useState(true);
 
   useEffect(() => {
     switch (enabledFilter?.name) {
@@ -16,21 +17,30 @@ export const MapConfigProvider = ({ children }) => {
         setShowBusRoutes(true)
         setShowBikeRoutes(false)
         setShowChargingStations(false)
+        setShowNoisePollution(false)
         break
       case 'Piste biciclete':
         setShowBusRoutes(false)
         setShowBikeRoutes(true)
         setShowChargingStations(false)
+        setShowNoisePollution(false)
         break
       case 'Statii incarcare':
         setShowBusRoutes(false)
         setShowBikeRoutes(false)
         setShowChargingStations(true)
+        setShowNoisePollution(false)
         break
+      case 'Poluare fonica':
+        setShowBusRoutes(false)
+        setShowBikeRoutes(false)
+        setShowChargingStations(false)
+        setShowNoisePollution(true)
       default:
         setShowBusRoutes(true)
         setShowBikeRoutes(true)
         setShowChargingStations(true)
+        setShowNoisePollution(true)
         break
       }
   }, [enabledFilter])
