@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react'
 import MapDisplay from './MapDisplay'
 import Logo from './Logo'
+import InfoContainer from './InfoContainer'
 import Filters, { FilterContext } from './Filters'
 import { FilterProvider } from './FilterContext'
 import { MapConfigProvider } from './MapConfigContext'
@@ -42,6 +43,7 @@ function App() {
       <MapConfigProvider>
         <Logo />
         {mapData && <MapDisplay data={mapData} />}
+        <InfoContainer />
         <Filters />
       </MapConfigProvider>
     </FilterProvider>

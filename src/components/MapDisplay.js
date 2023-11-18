@@ -3,13 +3,13 @@ import { MapContainer, GeoJSON, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useFilter } from './FilterContext'
 import { useMapConfig } from './MapConfigContext'
 import L from 'leaflet'
-import '/Users/sabin/Code/ecomap/src/styles/leaflet.css'
+import 'C:/vs/hackaton/ecomap/src/styles/leaflet.css'
 
 function MapDisplay({ data }) {
   const { showBusRoutes, showBikeRoutes, showChargingStations } = useMapConfig()
   const { enabledFilter } = useFilter()
   const busIcon = new L.Icon({
-    iconUrl: require('/Users/sabin/Code/ecomap/src/server/static/bus-station.png'),
+    iconUrl: require('C:/vs/hackaton/ecomap/src/server/static/bus-station.png'),
     iconSize: [20, 20],
     iconAnchor: [8, 8],
     popupAnchor: [0, -32],
@@ -17,7 +17,7 @@ function MapDisplay({ data }) {
   })
 
   const chargingStationIcon = new L.Icon({
-    iconUrl: require('/Users/sabin/Code/ecomap/src/server/static/charging-station.png'),
+    iconUrl: require('C:/vs/hackaton/ecomap/src/server/static/charging-station.png'),
     iconSize: [28, 28],
     iconAnchor: [8, 8],
     popupAnchor: [0, -32]
