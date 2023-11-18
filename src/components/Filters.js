@@ -1,29 +1,21 @@
-import React from 'react'
-import FilterButton from './FilterButton.js'
+import React, { useContext, useState } from 'react';
+import FilterButton from './FilterButton';
+import FilterContext from './FilterContext';
 
 function Filters() {
-  let filters = [
-    {
-      name: 'Autobuz',
-      icon: '🚌'
-    }, 
-    {
-      name: 'Piste biciclete',
-      icon: '🚲'
-    },
-    {
-      name: 'Stații încărcare',
-      icon: '🔌'
-    }
-  ]
+  const { filters, handleFilterClick, enabledFilter } = useContext(FilterContext);
 
-  return (
-    <div className='filters_container'>
-      {filters.map((filter) => {
-        return <FilterButton key={filter} name={filter.name} icon={filter.icon} />
-      })} 
-    </div>
-  )
+  const displayFilters = filters.map((filter, index) => (
+    <FilterButton
+      key={filter.name}
+      name={filter.name}
+      icon={filter.icon}
+      enabled={filter.enabled}
+      onClick={() => handleFilterClick(index)}
+    />
+  ));
+
+  return <div className='filters_container'>{displayFilters}</div>;
 }
 
-export default Filters
+export default Filters;

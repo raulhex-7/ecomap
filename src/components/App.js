@@ -1,8 +1,10 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useContext } from 'react'
 import MapDisplay from './MapDisplay'
 import Logo from './Logo'
-import Filters from './Filters'
 import InfoContainer from './InfoContainer'
+import Filters, { FilterContext } from './Filters'
+import { FilterProvider } from './FilterContext'
+import { MapConfigProvider } from './MapConfigContext'
 
 function App() {
   const [mapData, setMapData] = useState(null)
@@ -37,12 +39,14 @@ function App() {
   }, [])
 
   return (
-    <>
-      <Logo />
+    <FilterProvider>
+      <MapConfigProvider>
+        <Logo />
         {mapData && <MapDisplay data={mapData} />}
-      <Filters />
-      <InfoContainer />
-    </>
+        <InfoContainer />
+        <Filters />
+      </MapConfigProvider>
+    </FilterProvider>
   )
 }
 
