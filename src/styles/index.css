@@ -92,12 +92,11 @@ code {
   border: none;
   padding: 5px 10px;
   border-radius: 50px;
-  /* margin-top: -10px;  */
-  /* margin-left: -10px;  */
   position: absolute;
   top: 1%;
   right: 2%;
-  z-index: 10000; /* Ensure the button is visually above other elements */
+  z-index: 10000;
+  user-select: none;
 }
 
 .closed_info_container {

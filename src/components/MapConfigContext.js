@@ -36,6 +36,7 @@ export const MapConfigProvider = ({ children }) => {
         setShowBikeRoutes(false)
         setShowChargingStations(false)
         setShowNoisePollution(true)
+        break
       default:
         setShowBusRoutes(true)
         setShowBikeRoutes(true)
@@ -54,6 +55,8 @@ export const MapConfigProvider = ({ children }) => {
         setShowBikeRoutes,
         showChargingStations,
         setShowChargingStations,
+        showNoisePollution,
+        setShowNoisePollution,
       }}
     >
       {children}
