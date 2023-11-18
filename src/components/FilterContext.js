@@ -7,6 +7,7 @@ export const FilterProvider = ({ children }) => {
     { name: 'Autobuz', icon: '🚌', enabled: false },
     { name: 'Piste biciclete', icon: '🚲', enabled: false },
     { name: 'Statii incarcare', icon: '🔌', enabled: false },
+    { name: 'Poluare fonica', icon: '📢', enabled: false },
   ]);
 
   const handleFilterClick = (index) => {
