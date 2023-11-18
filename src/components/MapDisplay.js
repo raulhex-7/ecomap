@@ -3,13 +3,12 @@ import { MapContainer, GeoJSON, TileLayer, Marker, Popup } from 'react-leaflet'
 import { useFilter } from './FilterContext'
 import { useMapConfig } from './MapConfigContext'
 import L from 'leaflet'
-import 'C:/vs/hackaton/ecomap/src/styles/leaflet.css'
+import '/Users/sabin/Code/ecomap/src/styles/leaflet.css'
 
 function MapDisplay({ data }) {
-  const { showBusRoutes, showBikeRoutes, showChargingStations } = useMapConfig()
   const { enabledFilter } = useFilter()
   const busIcon = new L.Icon({
-    iconUrl: require('C:/vs/hackaton/ecomap/src/server/static/bus-station.png'),
+    iconUrl: require('/Users/sabin/Code/ecomap/src/server/static/bus-station.png'),
     iconSize: [20, 20],
     iconAnchor: [8, 8],
     popupAnchor: [0, -32],
@@ -17,7 +16,7 @@ function MapDisplay({ data }) {
   })
 
   const chargingStationIcon = new L.Icon({
-    iconUrl: require('C:/vs/hackaton/ecomap/src/server/static/charging-station.png'),
+    iconUrl: require('/Users/sabin/Code/ecomap/src/server/static/charging-station.png'),
     iconSize: [28, 28],
     iconAnchor: [8, 8],
     popupAnchor: [0, -32]
@@ -58,22 +57,23 @@ function MapDisplay({ data }) {
 
   const getRouteNumbersPopup = (relations) => {
     let routeNumbers = []
-    relations.forEach((relation) => {
+    relations?.forEach((relation) => {
       routeNumbers += `${relation.reltags.ref}, `
     })
     return routeNumbers.slice(0, -2)
   }
 
   const handleEachFeature = (feature, layer) => {
-    // console.log(enabledFilter?.name)
-
     if (feature.properties.amenity === 'charging_station') {
-      layer.bindPopup('Statie de incarcare electrica')
       layer.setIcon(chargingStationIcon)
       if (enabledFilter?.name !== 'Statii incarcare') {
         layer.setOpacity(0)
       }
       if (!enabledFilter?.name) {
+        layer.bindPopup('Statie de incarcare electrica')
+        layer.setOpacity(1)
+      } else if (enabledFilter?.name === 'Statii incarcare') {
+        layer.bindPopup('Statie de incarcare electrica')
         layer.setOpacity(1)
       }
     } else {
@@ -98,12 +98,15 @@ function MapDisplay({ data }) {
       })
       
       if (isPlatform) {
-        layer.bindPopup(`Trasee: ${getRouteNumbersPopup(feature.properties['@relations'])}`)
         layer.setIcon(busIcon)
         if (enabledFilter?.name !== 'Autobuz') {
           layer.setOpacity(0)
         }
         if (!enabledFilter?.name) {
+          layer.bindPopup(`Trasee: ${getRouteNumbersPopup(feature.properties['@relations'])}`)
+          layer.setOpacity(1)
+        } else if (enabledFilter?.name === 'Autobuz') {
+          layer.bindPopup(`Trasee: ${getRouteNumbersPopup(feature.properties['@relations'])}`)
           layer.setOpacity(1)
         }
       } else if (isStop) {
