@@ -6,7 +6,7 @@ function InfoContainer() {
     <container className='info_container'>
       <h2>Sibiu</h2>
       <button class="close_button">x</button>
-      <InfoSquare info='orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' img='/sibiu.png' />
+      <InfoSquare info='Sibiu este un oraș molcom, cu influențe germane, situat în mijlocul României, în regiunea Transivania. Acesta este caracterizat, din punct de vedere ecologic, de politicile axate pe design urban și pe transport verde. Astfel de inițiative sunt resimțite de către cetățeni prin introducerea trotinetelor electrice, a autobuzelor verzi, construcția pistelor de biciclete, introducerea sistemului extensiv de reciclare și introducerea stațiilor de biciclete. Totuși, sunt multe aspecte care rămân încă neadreste de instituții publice și de actori din mediul privat, precum poluarea fonică și o calitate din ce în ce mai scăzută a aerului. Geografia orașului și, în special, dealul pe care este situat Centrul, pot prezenta diferite probleme ce pot duce la neajunsuri când vine vorba de construcția de infrastructură prietenă cu mediul.' img='/sibiu.png' />
     </container>
   )
 }
