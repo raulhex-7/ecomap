@@ -15,6 +15,62 @@ code {
 .logo_container {
   position: absolute;
   top: 2%;
+  left: 50px;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2%;
+  border-radius: 100px;
+  background-color:#597214;
+  user-select: none;
+}
+
+.logo {
+  width: 25%;
+  height: 25%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.logo_name {
+  color: #9ABA28;
+  margin-right: 10px; 
+  font-weight: bold;
+  font-size: 36px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-7%);
+}
+
+.filters_container {
+  position: absolute;
+  bottom: 2%;
+  left: 1%;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  border-radius:0;
+  overflow: hidden;
+} 
+
+.filter_button {
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* outline: 1px solid black; */
+  border-radius: 100px;
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #000;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.logo_container {
+  position: absolute;
+  top: 2%;
   left: 4%;
   z-index: 9999;
   display: flex;
@@ -86,8 +142,63 @@ code {
 
 .close_button {
   cursor: pointer;
-  background-color: #ded8d8;
+  user-select: none;
+}
+.info_container {
+  background-color: #fff;
+  outline: 1px solid black;
+  border-radius: 10px;
   position: absolute;
+  top: 15%;
+  bottom: 11%;
+  left: 10px;
+  width: 240px;
+  /* transform: translate(-50%, -50%); */
+  z-index: 9999; /* Set a higher value */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  /* overflow: auto;    */
+}
+
+.close_button {
+cursor: pointer;
+background-color: #ded8d8;
+position: absolute;
+color: #333;
+border: none;
+padding: 5px 10px;
+border-radius: 50px;
+/* margin-top: -10px;  */
+/* margin-left: -10px;  */
+position: absolute;
+top: 1%;
+left: 2%;
+z-index: 10000; /* Ensure the button is visually above other elements */
+}
+
+
+.info_square {
+  width: auto; /* Adjust the width as needed */
+  padding: 10px;
+  overflow: auto; 
+}
+
+.info_image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  /* overflow: auto;  */
+}
+
+.info_text {
+  margin-left: 10px; /* Adjust the margin as needed */
+  max-height: 100%; /* Set a maximum height for the text area */
+  /* overflow: auto;  */
+}
+
+h2 {
   color: #333;
   border: none;
   padding: 5px 10px;
